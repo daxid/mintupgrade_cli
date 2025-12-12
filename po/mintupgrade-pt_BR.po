@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-09-13 17:09+0100\n"
-"PO-Revision-Date: 2023-11-07 13:33+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"PO-Revision-Date: 2025-11-05 22:02+0000\n"
+"Last-Translator: Alberlan Lopes <alberlan@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-10-07 15:08+0000\n"
-"X-Generator: Launchpad (build 8f35df7956d277b113de8d286a4ca280c7b8ebdf)\n"
+"X-Launchpad-Export-Date: 2025-12-12 13:33+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:32
 #, python-format
@@ -66,7 +66,7 @@ msgstr "Sua edição do Linux Mint é '%s'. Ela não pode ser atualizada para %s
 #: usr/lib/linuxmint/mintupgrade/checks.py:180
 #, python-format
 msgid "Your architecture of Linux Mint is '%s'. It cannot be upgraded."
-msgstr ""
+msgstr "A arquitetura do seu Linux Mint é '%s'. Ela não pode ser atualizada."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:187
 msgid "Power source"
