@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-09-13 17:09+0100\n"
-"PO-Revision-Date: 2023-11-07 13:33+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"PO-Revision-Date: 2025-12-19 11:59+0000\n"
+"Last-Translator: R Reyx <Unknown>\n"
 "Language-Team: English (Canada) <en_CA@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:33+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:32
 #, python-format
@@ -63,7 +63,7 @@ msgstr "Your edition of Linux Mint is '%s'. It cannot be upgraded to %s."
 #: usr/lib/linuxmint/mintupgrade/checks.py:180
 #, python-format
 msgid "Your architecture of Linux Mint is '%s'. It cannot be upgraded."
-msgstr ""
+msgstr "Your architecture of Linux Mint is '%s'. It cannot be upgraded."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:187
 msgid "Power source"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:204
 msgid "Press 'Fix' to perform a system snapshot."
-msgstr ""
+msgstr "Press 'Fix' to perform a system snapshot."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:220
 msgid "APT cache"
@@ -162,10 +162,12 @@ msgid ""
 "The following sources are defined in DEB822 format. This format isn't "
 "supported yet."
 msgstr ""
+"The following sources are defined in DEB822 format. This format isn't "
+"supported yet."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:334
 msgid "Backup and then delete these files to continue."
-msgstr ""
+msgstr "Backup and then delete these files to continue."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:362
 msgid ""
@@ -268,21 +270,23 @@ msgstr "The following packages do not exist in the repositories:"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:552
 msgid "In some rare cases orphan packages can interfere with the upgrade."
-msgstr ""
+msgstr "In some rare cases orphan packages can interfere with the upgrade."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:553
 msgid ""
 "If you decide to uninstall some of these packages press 'Check again' after "
 "their removal."
 msgstr ""
+"If you decide to uninstall some of these packages press 'Check again' after "
+"their removal."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:554
 msgid "Press 'OK' to continue with the upgrade."
-msgstr ""
+msgstr "Press 'OK' to continue with the upgrade."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:564
 msgid "Removing newly orphaned packages..."
-msgstr ""
+msgstr "Removing newly orphaned packages..."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:603
 msgid "Pointing to the new release..."

@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-09-13 17:09+0100\n"
-"PO-Revision-Date: 2025-09-13 16:41+0000\n"
+"PO-Revision-Date: 2025-12-23 19:27+0000\n"
 "Last-Translator: Klavs Petersons <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:33+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"Language: lv\n"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:32
 #, python-format
@@ -34,7 +35,7 @@ msgstr "Vai kopš tā laika repozitoriji tika modificēti?"
 #: usr/lib/linuxmint/mintupgrade/checks.py:36
 msgid "Re-run the Upgrade tool so that it migrates the repositories again."
 msgstr ""
-"Atkārtoti palaidiet atjaunināšanas rīku, lai tas atkal migrētu repozitorijus."
+"Atkārtoti palaid atjaunināšanas rīku, lai tas atkal migrētu repozitorijus."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:143
 msgid "Linux Mint version"
@@ -42,29 +43,29 @@ msgstr "Linux Mint versija"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:143
 msgid "Checking your version of Linux Mint..."
-msgstr "Notiek jūsu Linux Mint versijas pārbaude..."
+msgstr "Notiek tava Linux Mint versijas pārbaude..."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:151
 msgid ""
 "Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
 msgstr ""
-"Jūsu Linux Mint versija nav zināma. Trūkst fails /etc/linuxmint/info."
+"Tava Linux Mint versija nav zināma. Trūkst fails /etc/linuxmint/info."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:168
 #, python-format
 msgid "Your version of Linux Mint is '%s'. Only %s can be upgraded to %s."
 msgstr ""
-"Jūsu Linux Mint versija ir '%s'. Tikai %s var tikt atjaunināta uz %s."
+"Tava Linux Mint versija ir '%s'. Tikai %s var tikt atjaunināta uz %s."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:174
 #, python-format
 msgid "Your edition of Linux Mint is '%s'. It cannot be upgraded to %s."
-msgstr "Jūsu Linux Mint versija ir '%s'. To nevar atjaunināt uz %s."
+msgstr "Tava Linux Mint versija ir '%s'. To nevar atjaunināt uz %s."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:180
 #, python-format
 msgid "Your architecture of Linux Mint is '%s'. It cannot be upgraded."
-msgstr "Jūsu Linux Mint arhitektūra ir '%s'. To nevar jaunināt."
+msgstr "Tava Linux Mint arhitektūra ir '%s'. To nevar jaunināt."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:187
 msgid "Power source"
@@ -76,8 +77,7 @@ msgstr "Pārbauda strāvas avotu..."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:192
 msgid "Connect the computer to a power source before attempting to upgrade."
-msgstr ""
-"Pirms mēģināt veikt atjaunināšanu, pieslēdziet datoru strāvas avotam."
+msgstr "Pirms mēģini veikt atjaunināšanu, pieslēdz datoru strāvas avotam."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:198
 msgid "System snapshots"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:204
 msgid "Press 'Fix' to perform a system snapshot."
-msgstr "Nospiediet 'Labot', lai veiktu sistēmas momentuzņēmumu."
+msgstr "Nospied 'Labot', lai veiktu sistēmas momentuzņēmumu."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:220
 msgid "APT cache"
@@ -112,14 +112,14 @@ msgid ""
 "Your package cache can't refresh correctly. Run 'apt update' and fix the "
 "errors it displays."
 msgstr ""
-"Jūsu pakotnes kešatmiņu nevar atjaunināt. Izpildiet  'apt update' un "
-"izlabojiet parādītās kļūdas."
+"Tavas pakotnes kešatmiņu nevar atjaunināt. Izpildi 'apt update' un izlabo "
+"parādītās kļūdas."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:247
 msgid ""
 "Some of your packages are broken. Run 'apt install -f' to fix the issue."
 msgstr ""
-"Dažas no jūsu pakotnēm ir bojātas. Izpildiet komandu 'apt install -f', lai "
+"Dažas no tavām pakotnēm ir bojātas. Izpildi komandu 'apt install -f', lai "
 "atrisinātu šo problēmu."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:258
@@ -127,8 +127,8 @@ msgid ""
 "Your operating system is not up to date. Apply available updates before "
 "attempting the upgrade."
 msgstr ""
-"Jūsu operētājsistēma nav atjaunināta. Pirms mēģiniet veikt jaunināšanu, "
-"uzstādiet pieejamos atjauninājumus."
+"Tava operētājsistēma nav atjaunināta. Pirms mēģini veikt jaunināšanu, "
+"uzstādi pieejamos atjauninājumus."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:279
 msgid "The following operations need to be performed:"
@@ -169,15 +169,14 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:334
 msgid "Backup and then delete these files to continue."
-msgstr ""
-"Veidojiet dublējumu un pēc tam dzēsiet šos failus, lai turpinātu darbu."
+msgstr "Veido dublējumu un pēc tam dzēs šos failus, lai turpinātu darbu."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:362
 msgid ""
 "The following repositories do not explicitly support your version of Linux "
 "Mint."
 msgstr ""
-"Tālāk norādītie repozitoriji tieši neatbalsta jūsu Linux Mint versiju."
+"Tālāk norādītie repozitoriji tieši neatbalsta tavu Linux Mint versiju."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:370
 msgid "These repositories need to be disabled."
@@ -185,11 +184,11 @@ msgstr "Šie repozitoriji ir jāatspējo."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:383
 msgid "Your APT policy is incorrect."
-msgstr "Jūsu APT politika ir nepareiza."
+msgstr "Tava APT politika ir nepareiza."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:384
 msgid "Reboot your computer."
-msgstr "Pārstartējiet datoru."
+msgstr "Pārstartē savu datoru."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:392
 #: usr/lib/linuxmint/mintupgrade/checks.py:409
@@ -278,12 +277,12 @@ msgid ""
 "If you decide to uninstall some of these packages press 'Check again' after "
 "their removal."
 msgstr ""
-"Ja nolemjat atinstalēt kādu no šīm pakotnēm, pēc to noņemšanas nospiediet "
+"Ja nolem atinstalēt kādu no šīm pakotnēm, pēc to noņemšanas nospied "
 "'Pārbaudīt vēlreiz'."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:554
 msgid "Press 'OK' to continue with the upgrade."
-msgstr "Nospiediet 'LABI', lai turpinātu jaunināšanu."
+msgstr "Nospied 'LABI', lai turpinātu jaunināšanu."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:564
 msgid "Removing newly orphaned packages..."
@@ -380,15 +379,15 @@ msgid ""
 "Go through the list above and make sure you are happy with the removals "
 "before going further with the upgrade."
 msgstr ""
-"Pirms turpināt jaunināšanu, pārskatiet iepriekš minēto sarakstu un "
-"pārliecinieties, vai esat apmierināts ar pakotņu dzēšanu."
+"Pirms turpini jaunināšanu, pārskati iepriekš minēto sarakstu un "
+"pārliecinies, vai esi apmierināts ar pakotņu dzēšanu."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:812
 #, python-format
 msgid "You need %s on '%s' but only have %s. You must free an additional %s."
 msgstr ""
-"Jums ir nepieciešams %s uz '%s' bet jums ir tikai %s. Jums ir jāatbrīvo "
-"papildu %s."
+"Tev ir nepieciešams %s uz '%s' bet tev ir tikai %s. Tev ir jāatbrīvo papildu "
+"%s."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:816
 #, python-format
@@ -520,7 +519,7 @@ msgstr "2. posms: Simulācija un lejupielāde"
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:166
 msgid "Your package repositories will now point towards the new release."
-msgstr "Jūsu pakotņu repozitoriji tagad rādīs jaunāko versiju."
+msgstr "Tavi pakotņu repozitoriji tagad rādīs jaunāko versiju."
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:166
 msgid "A few more tests will be run and package updates will be downloaded."
@@ -537,8 +536,7 @@ msgstr "Tagad pakotnes tiks jauninātas."
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:3
 msgid ""
 "This program will ask you some questions and upgrade your operating system."
-msgstr ""
-"Šī programma jums uzdos dažus jautājumus un jauninās operētājsistēmu."
+msgstr "Šī programma tev uzdos dažus jautājumus un jauninās operētājsistēmu."
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:4
 msgid "Let's go!"
@@ -566,11 +564,11 @@ msgstr "Atjaunināšana bija veiksmīga."
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:10
 msgid "Reboot the computer for all the changes to take effect."
-msgstr "Restartējiet datoru, lai visas izmaiņas stātos spēkā."
+msgstr "Restartē datoru, lai visas izmaiņas stātos spēkā."
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:11
 msgid "Recent Timeshift snapshot"
-msgstr "Nesenais Timeshift momentuzņēmums"
+msgstr "Jaunākais Timeshift momentuzņēmums"
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:12
 msgid "Applied software updates"
@@ -581,8 +579,8 @@ msgid ""
 "These requirements are there to guarantee a safe upgrade. Only disable them "
 "if you know what you are doing."
 msgstr ""
-"Šīs prasības ir izvirzītas, lai garantētu drošu atjaunināšanu. Atspējojiet "
-"tās tikai tad, ja esat pārliecināts par savām darbībām."
+"Šīs prasības ir izvirzītas, lai garantētu drošu atjaunināšanu. Atspēj tās "
+"tikai tad, ja esi pārliecināts par savām darbībām."
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:14
 msgid "Supported Linux Mint version"
